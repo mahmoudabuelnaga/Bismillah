@@ -80,7 +80,7 @@ class Radio extends Component {
 
     render(){
         return(
-            <section className="youtube spad">
+            <section className="youtube spad" style={{borderBottom: 'solid 1px #FFF80A'}}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">

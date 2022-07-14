@@ -24,7 +24,7 @@ class AsmaHousnaComponent extends React.Component {
     render(){
         
         return(
-            <section className="youtube spad" style={{direction: 'rtl'}}>
+            <section className="youtube spad" style={{direction: 'rtl', borderBottom: 'solid 1px #FFF80A'}}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
