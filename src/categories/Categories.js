@@ -20,7 +20,7 @@ class Categorios extends Component{
 
     async componentDidMount(){
         try{
-            await axios.get(`https://quran-bismillah-api.herokuapp.com/categories/api/category/`)
+            await axios.get(``)
             .then(res => {
                 this.setState({
                     data: res.data     

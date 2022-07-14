@@ -19,7 +19,7 @@ const Container = () => {
 
     useEffect(()=> {
         try{
-            axios.get(`https://quran-bismillah-api.herokuapp.com/categories/api/category/`)
+            axios.get(``)
             .then(res => {
                 // setData(res.data)
                 setFilterDate(res.data.filter((category) => `${category.id}` === params.id))

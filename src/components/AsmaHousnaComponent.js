@@ -10,7 +10,7 @@ class AsmaHousnaComponent extends React.Component {
     }
     async componentDidMount(){
       try{
-        await axios.get(`https://quran-bismillah-api.herokuapp.com/asmaalhusna/api/?format=json`)
+        await axios.get(``)
         .then(response => {
             this.setState({
                 data: response.data
