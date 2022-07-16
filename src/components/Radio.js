@@ -16,7 +16,7 @@ class Radio extends Component {
     
     async componentDidMount(){
         try{
-            await axios.get(``)
+            await axios.get(`https://quran-bismillah-api.herokuapp.com/radio/api/`)
             .then(response => {
                 this.setState({
                     data: response.data

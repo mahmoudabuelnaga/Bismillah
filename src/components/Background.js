@@ -9,10 +9,10 @@ const Background = () => (
             <div className='header_content container'></div>
             <div className='header_bg'>
                 <div className='header_bg-one'>
-                    <img className='img-header' alt='' src='assets/img/1.png' />
+                    <img className='img-header' alt='' src='assets/img/1.png'/>
                 </div>
                 <div className='header_bg-two'>
-                    <img className='img-header' alt='' src='assets/img/2.png' />
+                    <img className='img-header' alt='' src='assets/img/2.png'/>
                 </div>
             </div>
         </div>

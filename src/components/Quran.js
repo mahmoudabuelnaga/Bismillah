@@ -16,7 +16,7 @@ class Quran extends Component {
 
     async componentDidMount(){
         try{
-            await axios.get(``)
+            await axios.get(`https://quran-bismillah-api.herokuapp.com/quran/api/`)
             .then(response => {
                 this.setState({
                     data: response.data

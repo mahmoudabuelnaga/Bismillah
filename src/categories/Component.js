@@ -39,7 +39,8 @@ class ChildComponent extends Component {
                     >                    
                         <div>{component.bismillah? component.bismillah: ''}</div>
                         <br />
-                        <div>{component.body}</div>
+                        {/* <div>{component.body}</div> */}
+                        <div dangerouslySetInnerHTML={{__html: component.body}}/>
                         <br />
                         <div style={{backgroundColor: '#DDDDDD', color:'#06113C', fontSize: 'large'}}>{component.surat}</div>
 

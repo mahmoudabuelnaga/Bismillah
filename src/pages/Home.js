@@ -15,9 +15,9 @@ class Home extends Component{
     render(){
         return(
             <>
-                {/* <div id="preloder">
+                <div id="preloder">
                     <div className="loader"></div>
-                </div> */}
+                </div>
                 {/* <Header /> */}
                 <Background />
                 <ArkanIslam />
